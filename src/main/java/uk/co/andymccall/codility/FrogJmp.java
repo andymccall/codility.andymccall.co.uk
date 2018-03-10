@@ -15,7 +15,7 @@ public class FrogJmp {
 
     }
 
-    // This test will pass correctness and pe
+    // This test will pass correctness and performance
     public int solution(int X, int Y, int D) {
         return Double.valueOf(Math.ceil((Y-X)/(double)D)).intValue();
     }
