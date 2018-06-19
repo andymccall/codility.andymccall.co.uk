@@ -27,4 +27,17 @@ public class BinaryGapTest {
                 binaryGapUndertest.solution(9));
     }
 
+    @Test
+    public void solution_test_3() {
+        assertEquals("BinaryGap.solution has failed!",
+                0,
+                binaryGapUndertest.solution(2147483647));
+    }
+
+    @Test
+    public void solution_test_4() {
+        assertEquals("BinaryGap.solution has failed!",
+                3,
+                binaryGapUndertest.solution(328));
+    }
 }

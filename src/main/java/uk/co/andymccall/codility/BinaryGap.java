@@ -7,6 +7,7 @@ public class BinaryGap {
         // Convert the number to a binary string...
         String binary = Integer.toBinaryString(N);
 
+        System.out.println(binary);
         int i = binary.length()-1;
 
         while(binary.charAt(i)=='0') {
